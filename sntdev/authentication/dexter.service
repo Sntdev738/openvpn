@@ -1,0 +1,13 @@
+[Unit]
+Description=Dexter VPN Service
+Documentation=http://mediatekvpn.com
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /etc/rc.local
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

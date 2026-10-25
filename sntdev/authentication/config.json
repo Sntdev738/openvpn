@@ -1,0 +1,18 @@
+{
+  "listen": ":5666",
+  "cert": "/etc/openvpn/easy-rsa/keys/server.crt",
+  "key": "/etc/openvpn/easy-rsa/keys/server.key",
+  "up_mbps": 100,
+  "down_mbps": 100,
+  "disable_udp": false,
+  "obfs": "mediatekvpn",
+  "auth": {
+    "mode": "external",
+    "config": {
+    "cmd": "./.auth.sh"
+    }
+  },
+  "prometheus_listen": ":5665",
+  "recv_window_conn": 107374182400,
+  "recv_window_client": 13421772800
+}

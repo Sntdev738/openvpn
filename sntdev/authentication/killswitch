@@ -1,0 +1,43 @@
+{
+  "apps": [
+    {
+      "package": "app.mtkgenuine.gen.aio",
+      "app_name": "MTK GENUINE GEN",
+      "app_key": "mtkgenuine2026",
+      "enabled": true,
+      "account": {
+        "username": "admin",
+        "password": "DBAGDgtfR1o=",
+        "expire": "2026-12-31",
+        "device_lock": true,
+        "device_id": ""
+      }
+    },
+    {
+          "package": "app.shbroplus.gen.aio",
+      "app_name": "SH BRO GEN",
+      "app_key": "shbroplus",
+      "enabled": true,
+      "account": {
+        "username": "000111",
+        "password": "EgwPGwESHhoDHx0R",
+        "expire": "2026-12-31",
+        "device_lock": true,
+        "device_id": ""
+      }
+    },
+    {
+      "package": "app.tunnelrm.gen.aio",
+      "app_name": "MTK GENUINE GEN",
+      "app_key": "mtk",
+      "enabled": true,
+      "account": {
+        "username": "272124",
+        "password": "DBAGBBoGBR0T",
+        "expire": "2027-01-01",
+        "device_lock": true,
+        "device_id": ""
+      }
+    }
+  ]
+}

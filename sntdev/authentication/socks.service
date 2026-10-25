@@ -1,0 +1,11 @@
+[Unit]
+Description=Python WS Proxy
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /etc/socks.py
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

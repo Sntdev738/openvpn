@@ -1,0 +1,13 @@
+#!/bin/sh -e
+service ufw stop
+iptables-restore < /etc/iptables_rules.v4
+ip6tables-restore < /etc/iptables_rules.v6
+sysctl -p
+service stunnel4 restart
+systemctl restart openvpn@server.service
+systemctl restart openvpn@server2.service
+screen -dmS socks python /etc/socks.py 80
+ps x | grep 'udpvpn' | grep -v 'grep' || screen -dmS udpvpn /usr/bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 10000 --max-connections-for-client 10 --client-socket-sndbuf 10000
+screen -dmS webinfo php -S 0.0.0.0:5623 -t /root/.web/
+bash /etc/monitor openvpn
+exit 0
