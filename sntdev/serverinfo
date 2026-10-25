@@ -1,0 +1,38 @@
+Hi! this is your server information, Happy Surfing!
+
+IP : $server_ip
+Hostname: $DOMAIN
+
+-----------------------
+SSH DETAILS
+-----------------------
+SSH : 22
+SSH SSL : 445
+DROPBEAR : 442
+DROPBEAR SSL : 446
+
+-----------------------
+HYSTERIA DETAILS
+-----------------------
+HYSTERIA UDP : 5666, 20000 - 50000
+OBFS: $OBFS
+AUTH_STR: username:password
+
+-----------------------
+PROXY DETAILS
+-----------------------
+SQUID : 8080
+HTTP/SOCKS : 80, 8000, 8001, 8002
+
+-----------------------
+SLOWDNS DETAILS
+-----------------------
+DNS URL : $NS
+SSH via DNS : 442
+DNS RESOLVER : $dnsresolverName
+DNS PUBLIC KEY : $(cat /root/.dns/server.pub)
+
+-----------------------
+
+FB Page : https://www.facebook.com/mohammad.abdula24
+Whatsapp Contact: https://wa.link/sgmw64

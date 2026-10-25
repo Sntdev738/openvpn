@@ -1,0 +1,11 @@
+[Unit]
+Description=dexter service
+Documentation=http://mediatekvpn.com
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /etc/rc.local
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
