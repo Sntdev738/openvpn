@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            58:c9:4d:31:44:e9:91:cc:1d:ab:60:ef:a9:fb:17:b3
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=DexterEskalarte-MediatekVpn
+        Validity
+            Not Before: Aug 19 09:35:49 2025 GMT
+            Not After : Aug 17 09:35:49 2035 GMT
+        Subject: CN=server
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b6:13:de:4c:de:f2:5a:15:ac:a3:c3:47:32:82:
+                    b4:51:cc:41:d8:84:f7:9e:2e:1f:75:ec:71:43:ae:
+                    f1:b7:0f:af:38:0a:df:74:fa:2a:e6:fe:4c:f1:db:
+                    0d:f6:da:ee:61:c9:f8:ce:0f:7b:ce:cb:20:c3:0c:
+                    c1:aa:fd:71:e1:c9:94:7b:2d:ef:05:62:88:da:23:
+                    06:84:fd:54:58:1d:0e:56:7e:2e:e1:9b:d2:96:75:
+                    fa:db:ce:7e:3f:33:d4:ec:0f:f3:15:bf:e3:8d:f3:
+                    40:1b:fe:0f:f6:cf:1b:10:cd:4a:87:0d:ac:58:b6:
+                    3d:af:6d:73:c8:71:9b:a1:a4:0c:9b:c7:b9:a0:9d:
+                    7e:ed:39:7a:c9:64:cf:7a:2f:97:e6:ed:48:be:72:
+                    59:c5:68:2f:3f:7e:37:37:38:09:70:59:7f:2d:c4:
+                    c0:50:77:e8:ba:a5:0b:54:13:28:12:41:48:19:b1:
+                    b8:1d:87:fe:d0:e4:18:89:f0:89:e2:1b:58:44:a2:
+                    75:64:73:7a:e5:2d:f7:5a:15:ea:d8:53:43:e5:ac:
+                    be:b1:57:71:ad:ab:6a:79:e4:88:31:b7:8c:86:c8:
+                    95:34:29:1a:7b:50:20:e2:98:04:58:c3:8b:cb:00:
+                    ab:92:a9:51:ea:02:9b:be:f9:8a:7b:e6:4f:f3:32:
+                    40:99
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints:
+                CA:FALSE
+            X509v3 Subject Key Identifier:
+                18:21:3A:B3:B4:DC:52:37:56:39:66:7B:CC:FD:F4:10:F3:5E:CA:18
+            X509v3 Authority Key Identifier:
+                keyid:DF:CB:41:AE:60:48:F7:0F:C0:D1:0C:D0:4C:44:30:24:ED:9F:F6:1D
+                DirName:/CN=DexterEskalarte-MediatekVpn
+                serial:7D:CB:54:EA:7E:11:9C:4F:CA:A1:B1:98:CE:94:58:4B:35:9E:04:32
+            X509v3 Extended Key Usage:
+                TLS Web Server Authentication
+            X509v3 Key Usage:
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name:
+                DNS:server
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        7f:06:53:8f:75:8a:86:97:eb:11:cb:ae:91:c0:24:1d:d9:63:
+        ba:6d:f1:7c:b7:58:44:ff:34:60:05:df:bd:dd:9b:cd:fe:14:
+        4a:31:16:88:b6:e5:19:ac:5c:30:d7:94:b9:f8:14:f5:42:b4:
+        df:9b:4d:1c:96:44:b4:a5:e5:e7:ba:f7:cb:e3:44:70:0c:63:
+        9e:e1:ef:d6:9c:d4:40:59:c9:c2:25:e4:71:f1:61:87:ee:9b:
+        86:ef:e9:e3:b8:6c:db:15:73:b1:26:b8:c0:17:28:4d:b8:4f:
+        3b:62:87:ca:0a:f9:bc:a4:c6:f4:50:d1:9d:8a:f1:c2:ba:a5:
+        67:3e:ee:e4:58:2f:02:a1:75:4b:b4:0f:17:5a:e1:5d:cc:1d:
+        0c:9b:87:18:a1:59:5d:1f:32:89:31:32:43:e3:73:91:41:fb:
+        18:54:4f:bc:7d:50:b1:a6:c4:b2:27:fb:16:1e:34:43:ca:fe:
+        8f:33:dd:38:87:d0:9b:74:6a:e2:89:9b:5c:34:a0:a5:ea:36:
+        77:8b:b1:37:02:46:72:f7:dc:0a:79:41:ee:d5:7f:67:96:19:
+        db:65:a0:6f:82:46:b6:46:fc:89:3c:38:70:51:01:98:93:1d:
+        cf:4e:9f:41:77:ac:4a:a7:3b:fa:12:48:0f:de:a8:8d:00:f0:
+        0e:61:6b:17
+-----BEGIN CERTIFICATE-----
+MIIDhzCCAm+gAwIBAgIQWMlNMUTpkcwdq2DvqfsXszANBgkqhkiG9w0BAQsFADAm
+MSQwIgYDVQQDDBtEZXh0ZXJFc2thbGFydGUtTWVkaWF0ZWtWcG4wHhcNMjUwODE5
+MDkzNTQ5WhcNMzUwODE3MDkzNTQ5WjARMQ8wDQYDVQQDDAZzZXJ2ZXIwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2E95M3vJaFayjw0cygrRRzEHYhPee
+Lh917HFDrvG3D684Ct90+irm/kzx2w322u5hyfjOD3vOyyDDDMGq/XHhyZR7Le8F
+YojaIwaE/VRYHQ5Wfi7hm9KWdfrbzn4/M9TsD/MVv+ON80Ab/g/2zxsQzUqHDaxY
+tj2vbXPIcZuhpAybx7mgnX7tOXrJZM96L5fm7Ui+clnFaC8/fjc3OAlwWX8txMBQ
+d+i6pQtUEygSQUgZsbgdh/7Q5BiJ8IniG1hEonVkc3rlLfdaFerYU0PlrL6xV3Gt
+q2p55Igxt4yGyJU0KRp7UCDimARYw4vLAKuSqVHqApu++Yp75k/zMkCZAgMBAAGj
+gcUwgcIwCQYDVR0TBAIwADAdBgNVHQ4EFgQUGCE6s7TcUjdWOWZ7zP30EPNeyhgw
+YQYDVR0jBFowWIAU38tBrmBI9w/A0QzQTEQwJO2f9h2hKqQoMCYxJDAiBgNVBAMM
+G0RleHRlckVza2FsYXJ0ZS1NZWRpYXRla1ZwboIUfctU6n4RnE/KobGYzpRYSzWe
+BDIwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMBEGA1UdEQQKMAiC
+BnNlcnZlcjANBgkqhkiG9w0BAQsFAAOCAQEAfwZTj3WKhpfrEcuukcAkHdljum3x
+fLdYRP80YAXfvd2bzf4USjEWiLblGaxcMNeUufgU9UK035tNHJZEtKXl57r3y+NE
+cAxjnuHv1pzUQFnJwiXkcfFhh+6bhu/p47hs2xVzsSa4wBcoTbhPO2KHygr5vKTG
+9FDRnYrxwrqlZz7u5FgvAqF1S7QPF1rhXcwdDJuHGKFZXR8yiTEyQ+NzkUH7GFRP
+vH1QsabEsif7Fh40Q8r+jzPdOIfQm3Rq4ombXDSgpeo2d4uxNwJGcvfcCnlB7tV/
+Z5YZ22Wgb4JGtkb8iTw4cFEBmJMdz06fQXesSqc7+hJID96ojQDwDmFrFw==
+-----END CERTIFICATE-----
